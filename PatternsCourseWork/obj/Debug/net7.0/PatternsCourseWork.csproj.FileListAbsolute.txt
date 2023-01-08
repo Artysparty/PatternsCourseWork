@@ -1,0 +1,15 @@
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/bin/Debug/net7.0/PatternsCourseWork
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/bin/Debug/net7.0/PatternsCourseWork.deps.json
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/bin/Debug/net7.0/PatternsCourseWork.runtimeconfig.json
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/bin/Debug/net7.0/PatternsCourseWork.dll
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/bin/Debug/net7.0/PatternsCourseWork.pdb
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/obj/Debug/net7.0/PatternsCourseWork.csproj.AssemblyReference.cache
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/obj/Debug/net7.0/PatternsCourseWork.GeneratedMSBuildEditorConfig.editorconfig
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/obj/Debug/net7.0/PatternsCourseWork.AssemblyInfoInputs.cache
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/obj/Debug/net7.0/PatternsCourseWork.AssemblyInfo.cs
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/obj/Debug/net7.0/PatternsCourseWork.csproj.CoreCompileInputs.cache
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/obj/Debug/net7.0/PatternsCourseWork.dll
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/obj/Debug/net7.0/refint/PatternsCourseWork.dll
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/obj/Debug/net7.0/PatternsCourseWork.pdb
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/obj/Debug/net7.0/PatternsCourseWork.genruntimeconfig.cache
+/Users/artemkozlov/Projects/PatternsCourseWork/PatternsCourseWork/obj/Debug/net7.0/ref/PatternsCourseWork.dll
