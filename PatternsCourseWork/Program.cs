@@ -1,4 +1,5 @@
 ﻿using PatternsCourseWork;
+using PatternsCourseWork.Facade;
 
 var director = new Director();
 var builder = new CarBuilder();
@@ -18,3 +19,6 @@ Console.WriteLine("Custom product:");
 builder.BuildChassis();
 builder.BuildEngine();
 Console.Write(builder.GetCar().ListParts());
+
+CarFacade facade = new CarFacade();
+facade.Ride();

@@ -2,7 +2,7 @@ namespace PatternsCourseWork;
 
 public interface IBuilder
 {
-    void BuildEngine();
-    void BuildChassis();
-    void BuildCarBody();
+    Engine BuildEngine();
+    Chassis BuildChassis();
+    CarBody BuildCarBody();
 }

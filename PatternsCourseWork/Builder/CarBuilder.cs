@@ -2,12 +2,12 @@ namespace PatternsCourseWork;
 
 public class CarBuilder : IBuilder
 {
-    private Car car = new Car();
-    
     public Chassis Chassis = new Chassis(440.1f, "titan");
     public CarBody CarBody = new CarBody(320, "aluminium", "white", "small");
     public Engine Engine = new Engine(200, "steel", 105, true, 1.2f);
 
+    private Car car = new Car();
+    
     public CarBuilder()
     {
         Reset();
@@ -18,19 +18,22 @@ public class CarBuilder : IBuilder
         car = new Car();
     }
     
-    public void BuildEngine()
+    public Engine BuildEngine()
     {
         car.Add(Engine);
+        return Engine;
     }
 
-    public void BuildCarBody()
+    public CarBody BuildCarBody()
     {
         car.Add(CarBody);
+        return CarBody;
     }
 
-    public void BuildChassis()
+    public Chassis BuildChassis()
     {
         car.Add(Chassis);
+        return Chassis;
     }
     
     public Car GetCar()

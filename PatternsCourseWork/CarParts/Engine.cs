@@ -17,6 +17,11 @@ public class Engine : IVehiclePart
         this.volume = volume;
     }
 
+    public void StartEngine()
+    {
+        Console.WriteLine("Engine starts..."); 
+    }
+
     public void DoPartFunction()
     {
         Console.WriteLine("Spin the wheels");

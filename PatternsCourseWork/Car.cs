@@ -2,15 +2,17 @@ namespace PatternsCourseWork;
 
 public class Car
 {
-    
-    private List<object> _parts = new List<object>();
+    private List<IVehiclePart> _parts = new List<IVehiclePart>();
 
-    public void Ride()
+    public void Ride(Engine engine, Chassis chassis)
     {
+        engine.StartEngine();
+        engine.DoPartFunction();
+        chassis.DoPartFunction();
         Console.WriteLine("Car rides");
     }
     
-    public void Add(object part)
+    public void Add(IVehiclePart part)
     {
         _parts.Add(part);
     }
