@@ -2,9 +2,9 @@ namespace PatternsCourseWork;
 
 public class CarBuilder : IBuilder
 {
-    public Chassis Chassis = new Chassis(440.1f, "titan");
-    public CarBody CarBody = new CarBody(320, "aluminium", "white", "small");
-    public Engine Engine = new Engine(200, "steel", 105, true, 1.2f);
+    public Chassis Chassis { get; set; }
+    public CarBody CarBody { get; set; }
+    public Engine Engine { get; set; }
 
     private Car car = new Car();
     
@@ -18,20 +18,23 @@ public class CarBuilder : IBuilder
         car = new Car();
     }
     
-    public Engine BuildEngine()
+    public Engine BuildEngine(float mass, string material, int power, bool isTurbo, float volume)
     {
+        Engine = new Engine(mass, material, power, isTurbo, volume);
         car.Add(Engine);
         return Engine;
     }
 
-    public CarBody BuildCarBody()
+    public CarBody BuildCarBody(float mass, string material, string color, string size)
     {
+        CarBody = new CarBody(mass, material, color, size);
         car.Add(CarBody);
         return CarBody;
     }
 
-    public Chassis BuildChassis()
+    public Chassis BuildChassis(float mass, string material)
     {
+        Chassis = new Chassis(mass, material);
         car.Add(Chassis);
         return Chassis;
     }

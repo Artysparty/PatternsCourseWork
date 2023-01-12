@@ -11,13 +11,13 @@ public class Director
     
     public void BuildMinimalViableProduct()
     {
-        this._builder.BuildChassis();
+        this._builder.BuildChassis(200, "steel");
     }
         
     public void BuildFullFeaturedProduct()
     {
-        this._builder.BuildChassis();
-        this._builder.BuildEngine();
-        this._builder.BuildCarBody();
+        this._builder.BuildChassis(200, "steel");
+        this._builder.BuildEngine(200, "steel", 200, true, 2);
+        this._builder.BuildCarBody(200, "steel", "red", "small");
     }
 }

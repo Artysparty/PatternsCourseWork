@@ -6,8 +6,8 @@ public class CarFacade
 
     public void Ride()
     {
-        Engine engine = builder.BuildEngine();
-        Chassis chassis = builder.BuildChassis();
+        Engine engine = builder.BuildEngine(200, "steel", 200, true, 2);
+        Chassis chassis = builder.BuildChassis(200, "steel");
         Car car = builder.GetCar();
         car.Ride(engine, chassis);
     }

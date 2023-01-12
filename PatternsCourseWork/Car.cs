@@ -9,7 +9,14 @@ public class Car
         engine.StartEngine();
         engine.DoPartFunction();
         chassis.DoPartFunction();
-        Console.WriteLine("Car rides");
+        if (engine != null && chassis != null && engine.engineStarted)
+        {
+            Console.WriteLine("Car rides");
+        }
+        else
+        {
+            Console.WriteLine("Car can not ride without engine and chassis");
+        }
     }
     
     public void Add(IVehiclePart part)

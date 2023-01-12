@@ -7,6 +7,8 @@ public class Engine : IVehiclePart
     public int power { get; set; }
     public bool isTurbo { get; set; }
     public float volume { get; set; }
+    
+    public bool engineStarted { get; set;  }
 
     public Engine(float mass, string material, int power, bool isTurbo, float volume)
     {
@@ -19,6 +21,13 @@ public class Engine : IVehiclePart
 
     public void StartEngine()
     {
+        engineStarted = true;
+        Console.WriteLine("Engine starts..."); 
+    }
+    
+    public void StopEngine()
+    {
+        engineStarted = false;
         Console.WriteLine("Engine starts..."); 
     }
 
